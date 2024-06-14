@@ -166,7 +166,7 @@ def calc_map(gt, pred):
         {"eval_id": 292, "msg": [{"role": "user", 
         		"content": "아세틸 콜린의 역할이 뭐야?"}]}
         
-        # 관련 문서	
+        # 관련 문서
         {"docid": "8eac310f-a32f-462b-8ca8-da7c8fcd41e7", "src": "ko_mmlu__high_school_biology__test", 
         		"content": "... 아세틸콜린은 일반적으로 시냅스 간극을 통해 전달되는 신호를 전달하는 역할을 합니다. ..."}
         ```
@@ -183,7 +183,7 @@ def calc_map(gt, pred):
         {"eval_id": 285, "msg": [{"role": "user", 
         		"content": "다람쥐가 열매를 땅에 묻는 행동이 나무에 미치는 영향은?"}]
         
-        # 관련 문서	
+        # 관련 문서
         {"docid": "b38604f4-94bd-4482-97df-7a768331558a", "src": "ko_ai2_arc__ARC_Challenge__test", 
         		"content": "다람쥐는... 이들은 주로 도토리를 수집하고 토양에 묻는 것으로 알려져 있습니다. 
         							  ...이는 숲 생태계의 다양성을 유지하는 데에 기여합니다. ..."}
@@ -200,7 +200,7 @@ def calc_map(gt, pred):
     > 
     
     ```json
-    .{"docid": "fabd5549-84e5-4b45-8c6b-261773e3311a", "src": "ko_mmlu__human_aging__test", 
+    {"docid": "fabd5549-84e5-4b45-8c6b-261773e3311a", "src": "ko_mmlu__human_aging__test", 
     		"content": "장수는 사회적 지원과 높은 수준의 강한 관련이 있습니다. 
     							  사회적 지원은 개인이나 집단이 사회적으로 안정되고 안전한 환경에서 살 수 있도록 도와주는 요소입니다. 
     							  이는 경제적인 지원, 교육, 의료, 주거 등 다양한 형태로 제공될 수 있습니다. ..."}
@@ -258,7 +258,7 @@ persona_function_calling = """
     
     1. 일반 대화 메시지임에도 불구하고 search 함수를 호출 → standalone_query 추출
     
-    ```python
+    ```json
     # eval.jsonl
     {"eval_id": 276, "msg": [{"role": "user", "content": "요새 너무 힘들다."}]}
     
