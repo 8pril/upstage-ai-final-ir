@@ -764,7 +764,7 @@ score: 8.6020355 source: 객체의 선형 크기를 3배로 확대하면 표면�
 
 # analyzer
 "nori": {
-		"type": "custom",
+    "type": "custom",
     "tokenizer": "nori_tokenizer",
     "decompound_mode": "mixed", 
     "filter": ["nori_posfilter", "synonyms_filter"]
@@ -783,12 +783,12 @@ score: 8.6020355 source: 객체의 선형 크기를 3배로 확대하면 표면�
 - Public 리더보드
     - 2위, MAP score: 0.9045
 
-![스크린샷 2024-05-06 오전 12.28.56.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/665aabc8-73cb-4a4a-bcc8-48cc3d6fce43/338dec16-5a68-4d6e-8f11-650c04909e59/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_12.28.56.png)
+![스크린샷 2024-05-06 오전 12.28.56.png](https://github.com/8pril/upstage-ai-final-ir/assets/40953615/b0757749-515a-40cd-99bf-9ba06654518d)
 
 - Private(최종) 리더보드
     - 2위, MAP score: 0.8652
 
-![스크린샷 2024-05-06 오전 12.29.07.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/665aabc8-73cb-4a4a-bcc8-48cc3d6fce43/5818e6e9-9e53-42f2-8e7d-0dac37d440c6/8eba32f8-0ace-40e4-93bd-52c815263325.png)
+![스크린샷 2024-05-06 오전 12.29.07.png](https://github.com/8pril/upstage-ai-final-ir/assets/40953615/99ac4524-4c05-4d44-abf9-0e4a3c52a787)
 
 ## 4.2. 결과 분석
 
